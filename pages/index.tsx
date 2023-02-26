@@ -8,7 +8,7 @@ const getDynamicComponent = (c) => dynamic(() => import(`/components/${c}`), {
 
 export default function Home() {
 
-  const blocks = ['Hero', 'Fullimage']
+  const blocks = ['Hero', 'Fullimage', 'Video']
 
   return(
     <>
